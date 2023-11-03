@@ -113,4 +113,54 @@ header {
 }
 .benefits .cards .card .text__card {
   color: var(--text-color);
+}
+
+.final {
+  padding-bottom: 50px;
+}
+.final .final__image {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 20px;
+}
+.final .final__image img {
+  width: 100%;
+}
+.final .final__text {
+  text-align: center;
+  color: var(--text-color);
+}
+
+.gallery {
+  padding: 50px 0;
+}
+.gallery .title__gallery {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--second-color);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.gallery .gallery__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.gallery .gallery__container a {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid var(--text-color);
+}
+.gallery .gallery__container a img {
+  width: 100%;
+  display: block;
+}
+
+footer {
+  background-color: var(--second-color);
+  padding: 20px;
+  text-align: center;
+  color: #fff;
 }/*# sourceMappingURL=styles.css.map */
