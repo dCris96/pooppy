@@ -8,25 +8,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/915acc8817.js" crossorigin="anonymous"></script>
     <link href="./dist/css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/styles.css">
     <title>Pooppy Love</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="wrapper">
             <h1 class="logo">Pooppy</h1>
         </div>
     </header>
 
-    <main>
+    <main id="main">
         <section class="hero">
-            <div class="wrapper">
-                <div class="hero__text">
+            <div class="wrapper hero__container">
+                <div class="hero__text" data-aos="fade-right" data-aos-duration="1500">
                     <h2 class="title">Pooppy Love</h2>
                     <p>Poop Bag, Pet Poop Bags, Dog Poop Bag Rolls, Biodegradable with Dispenser and Clip. Extra Thick 17 Micron Leak Proof Poop Bag Replacement Rolls Guaranteed for Puppies and Dogs. Replacement rolls for dogs. 270 pieces of 9" x 13" dog poop bags. Biodegradable bags for pet waste, unscented.</p>
                 </div>
-                <div class="hero__img">
-                    <img src="./img/Portada-AmazonVS2 (1).jpg" alt="Products">
+                <div class="hero__img" data-aos="fade-left" data-aos-duration="1500">
+                    <img src="./img/Portada-AmazonVS2 (1).jpg" alt="Products" loading="lazy">
                 </div>
             </div>
         </section>
@@ -39,33 +40,38 @@
             <div class="wrapper">
                 <h3 class="title__section">Our Mission</h3>
                 <hr class="line__section">
-                <p class="text__section">Poopy Love's mission is to merge the love of dogs with environmental responsibility and community living. We are dedicated to providing high-quality, environmentally friendly solutions for pet waste management, starting with our dog waste bags. Beyond selling bags, we seek to empower pet owners to be responsible stewards of their canine companions and shared environment. We believe in environmental responsibility through biodegradable bags, community advocacy, and education about the importance of keeping public spaces clean. We look for innovation and convenience to make waste collection easier. In addition, we are socially committed, contributing to improving the lives of homeless dogs and charities. At Poopy Love, we believe that love of dogs and responsibility go hand in hand, working to build a future where our canine companions and community thrive in a clean and healthy environment.</p>
+                <div class="mission__content">
+                    <div class="mission__img" data-aos="fade-right" data-aos-duration="1500">
+                        <img src="./img/caja1.png" alt="Box" loading="lazy">
+                    </div>
+                    <p class="text__section" data-aos="fade-left" data-aos-duration="1500">Poopy Love's mission is to merge the love of dogs with environmental responsibility and community living. We are dedicated to providing high-quality, environmentally friendly solutions for pet waste management, starting with our dog waste bags. Beyond selling bags, we seek to empower pet owners to be responsible stewards of their canine companions and shared environment. We believe in environmental responsibility through biodegradable bags, community advocacy, and education about the importance of keeping public spaces clean. We look for innovation and convenience to make waste collection easier. In addition, we are socially committed, contributing to improving the lives of homeless dogs and charities. At Poopy Love, we believe that love of dogs and responsibility go hand in hand, working to build a future where our canine companions and community thrive in a clean and healthy environment.</p>
+                </div>
             </div>
         </section>
 
         <section class="benefits">
             <div class="wrapper cards">
-                <article class="card">
+                <article class="card" data-aos="flip-left" data-aos-duration="1000">
                     <i class="fa-solid fa-shield-dog"></i>
                     <h4 class="title__card">Leak Proof</h4>
                     <p class="text__card">Say goodbye to clutter worries. Our bags are designed with high-quality materials that ensure there is no chance of poop on your hands.</p>
                 </article>
-                <article class="card">
+                <article class="card" data-aos="flip-left" data-aos-duration="1000">
                     <i class="fa-solid fa-poo"></i>
                     <h4 class="title__card">For all the poops and poops</h4>
                     <p class="text__card">No matter the size of the challenge, our bags are extra-long and extra strong to accommodate any amount of poop. From puppies to large dogs, we are ready to take on any situation.</p>
                 </article>
-                <article class="card">
+                <article class="card" data-aos="flip-left" data-aos-duration="1000">
                     <i class="fa-solid fa-bag-shopping"></i>
                     <h4 class="title__card">Plenty of Bags</h4>
                     <p class="text__card">Our box includes 270 poop bags, so you'll be well stocked for a long time! With 18 rolls of 15 bags each, you'll be able to keep all your dispensers full, from your pockets to the glove compartment of your car.</p>
                 </article>
-                <article class="card">
+                <article class="card" data-aos="flip-left" data-aos-duration="1000">
                     <i class="fa-solid fa-hand-holding-heart"></i>
                     <h4 class="title__card">Commitment to well-being</h4>
                     <p class="text__card">In our team, we love dogs as much as you do. We do everything we can to improve the experience for both furry people and their owners. That's why we come to work excited every day.</p>
                 </article>
-                <article class="card">
+                <article class="card" data-aos="flip-left" data-aos-duration="1000">
                     <i class="fa-solid fa-thumbs-up"></i>
                     <h4 class="title__card">Convenient Dispenser</h4>
                     <p class="text__card">Our dispenser is specially designed to perfectly fit our 9 x 13 poop bag rolls. It is ideal for small, medium, and large dogs, and will allow you to go for a walk with ease.</p>
@@ -75,10 +81,10 @@
 
         <section class="final">
             <div class="wrapper">
-                <div class="final__image">
-                    <img src="./img/bag.png" alt="Bag">
+                <div class="final__image" data-aos="fade-down" data-aos-duration="3000">
+                    <img src="./img/bag.png" alt="Bag" loading="lazy">
                 </div>
-                <div class="final__text">
+                <div class="final__text" data-aos="fade-up" data-aos-duration="1500">
                     <p>Our bags break down much faster than conventional plastic bags, thanks to EPI technology. While plastic bags typically take several decades to break down, our POOPPY LOVE bags only need 12-36 months to break down under common environmental conditions. Imagine the positive impact this has on our planet.</p>
                 </div>
             </div>
@@ -92,20 +98,20 @@
             <div class="wrapper">
                 <h3 class="title__gallery">Gallery</h3>
                 <div class="gallery__container">
-                    <a href="./img/Bolsa-Apertura1 (2).jpg" data-lightbox="roadtrip">
-                        <img class="gallery__image" src="./img/Bolsa-Apertura1 (2).jpg" alt="Bolsa-Apertura">
+                    <a href="./img/Bolsa-Apertura1 (2).jpg" data-lightbox="roadtrip" data-aos="zoom-in" data-aos-duration="1500">
+                        <img class="gallery__image" src="./img/Bolsa-Apertura1 (2).jpg" alt="Bolsa-Apertura" loading="lazy">
                     </a>
-                    <a href="./img/Bolsa-Resistente1 (2).jpg" data-lightbox="roadtrip">
-                        <img class="gallery__image" src="./img/Bolsa-Resistente1 (2).jpg" alt="Bolsa Resistente">
+                    <a href="./img/Bolsa-Resistente1 (2).jpg" data-lightbox="roadtrip" data-aos="zoom-in" data-aos-duration="1500">
+                        <img class="gallery__image" src="./img/Bolsa-Resistente1 (2).jpg" alt="Bolsa Resistente" loading="lazy">
                     </a>
-                    <a href="./img/keep odors inside.png" data-lightbox="roadtrip">
-                        <img class="gallery__image" src="./img/keep odors inside.png" alt="Keeps odors inside">
+                    <a href="./img/keep odors inside.png" data-lightbox="roadtrip" data-aos="zoom-in" data-aos-duration="1500">
+                        <img class="gallery__image" src="./img/keep odors inside.png" alt="Keeps odors inside" loading="lazy">
                     </a>
-                    <a href="./img/product detail.png" data-lightbox="roadtrip">
-                        <img class="gallery__image" src="./img/product detail.png" alt="Product Detail">
+                    <a href="./img/product detail.png" data-lightbox="roadtrip" data-aos="zoom-in" data-aos-duration="1500">
+                        <img class="gallery__image" src="./img/product detail.png" alt="Product Detail" loading="lazy">
                     </a>
-                    <a href="./img/product simple.png" data-lightbox="roadtrip">
-                        <img class="gallery__image" src="./img/product simple.png" alt="Product Simple">
+                    <a href="./img/product simple.png" data-lightbox="roadtrip" data-aos="zoom-in" data-aos-duration="1500">
+                        <img class="gallery__image" src="./img/product simple.png" alt="Product Simple" loading="lazy">
                     </a>
                 </div>
             </div>
@@ -116,8 +122,14 @@
         <p>© 2023 Pooppy love - All Rights Reserved</p>
     </footer>
 
+    <a href="#main" class="btn__top"><i class="fa-solid fa-caret-up"></i></a>
+
     <script src="./dist/js/lightbox-plus-jquery.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="./js/main.js"></script>
 </body>
 </html>
