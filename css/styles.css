@@ -26,16 +26,44 @@ body {
 
 header {
   background-color: var(--third-color);
-  padding: 10px 0;
+  padding: 20px 0;
   position: fixed;
   width: 100%;
   z-index: 100;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
   color: #fff;
   text-transform: uppercase;
   font-size: 1.5rem;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all ease-in 200ms;
+}
+.menu ul li a:hover {
+  background-color: var(--r);
 }
 
 .hero {
