@@ -38,9 +38,11 @@ header{
 }
 
 .logo{
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1.5rem;
+    width: 250px;
+    img{
+        width: 100%;
+        display: block;
+    }
 }
 
 .menu{
